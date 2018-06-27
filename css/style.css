@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.main-heading {
+    margin: 30px;
+}
+
+.button {
+    margin: 20px;
+    
+}
+
+.button a {
+    text-decoration: none;
+}

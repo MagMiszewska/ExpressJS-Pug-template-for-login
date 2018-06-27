@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        title="Logowanie"
+        style
+            include ../css/style.css
+    body
+        h1.main-heading Ta aplikacja zaloguje Cię do konta Google
+        p Login:
+            input(type="text")
+        p Hasło:
+            input(type="text")
+        button.button
+            a(href="/auth/google") Zaloguj się
