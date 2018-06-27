@@ -13,5 +13,5 @@ app.get('/auth/google', function (req, res) {
 
 app.listen(3000);
 app.use(function (req, res, next) {
-    res.status(404).send('Nie znaleźliśmy tej strony!')
+    res.status(404).send('Nie znaleźliśmy tej strony!');
 });
